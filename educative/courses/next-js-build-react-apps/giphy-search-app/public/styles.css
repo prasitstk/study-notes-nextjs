@@ -1,0 +1,55 @@
+body {
+    color: rgb(85, 85, 85);
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0px 40px;
+}
+
+.giphy-search-results-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+img {
+    width: 100%;
+}
+
+form {
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+    grid-gap: 30px;
+    height: 40px;
+}
+
+button {
+    background-color: blueviolet;
+    color: white;
+    border-radius: 10px;
+    border: 0px;
+    cursor: pointer;
+}
+
+button:focus {
+    outline: 0px;
+}
+
+input {
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+
+input:focus {
+    outline: 0px;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 4fr;
+    background-color: #EFEFEF;
+    margin-top: 40px;
+}
